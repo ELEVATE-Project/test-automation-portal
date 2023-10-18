@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>dark</theme>
+
+		<!-- document encoding -->
+		<!-- defaults to UTF-8 -->
+		<encoding>UTF-8</encoding>
+
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>https</protocol>
+
+		<!-- title of the document -->
+		<documentTitle>MentorED_Shikshalokam</documentTitle>
+
+		<reportName>
+			<![CDATA[
+			<a href="https://shikshalokam.org/">
+			 <img height="auto" src="https://uploads-ssl.webflow.com/5fb3782ace5676c46e40c6b3/5fba4a54431df95a383171db_logo.svg"</a>
+		]]>
+		</reportName>
+
+		<!-- report headline - displayed at top-nav, after reportHeadline D:\Project_Data\CoLive\Web_App\CodeBase\CoLive-Web\src\main\resources\qualitrix.png -->
+		<reportHeadline>
+		<![CDATA[	
+			<marquee> Shikshalokam - Web/Mobile Automation Suite Execution Report</marquee>
+		]]>
+		</reportHeadline>
+
+		<!-- location of charts in the test view -->
+		<!-- top, bottom -->
+		<testViewChartLocation>bottom</testViewChartLocation>
+
+		<!-- global date format override -->
+		<!-- defaults to yyyy-MM-dd -->
+		<dateFormat>yyyy-MM-dd</dateFormat>
+
+		<!-- global time format override -->
+		<!-- defaults to HH:mm:ss -->
+		<timeFormat>HH:mm:ss</timeFormat>
+
+		<!-- custom javascript -->
+		<scripts> <![CDATA[ 
+        				$(document).ready(function() { 
+       					$('.brand-logo img').attr('src','https://shikshalokam.org/wp-content/uploads/2021/07/Logo_highrez_transparent-300x87.png');
+       					}); ]]>
+		</scripts>
+
+		<!-- custom styles -->
+		<styles>
+            <![CDATA[
+                .report-name { 
+                padding-left: 50px;
+                background-color: white;
+                height: 48px;
+    			width: 205px;
+                } 
+                .report-name > a > img { 	
+                   	float: right;
+    				margin-left: 10px;
+    				margin-top: 7px;
+    				margin-right: 8px;
+    				height: 33px;
+				    width: 140px;
+    				image-rendering: initial;
+    				display: block;  				
+  				}
+            ]]>
+			.sample{
+			width: 25%;
+			float: left;
+			text-align: center;
+			}
+			.md-display-4 {
+			word-wrap: break-word;
+			}
+			th:nth-child(3), td:nth-child(3) {
+			max-width:
+			250px !important;
+			min-width: 200px !important;
+			}
+			#testrunner-logs-view >
+			.col > .card-panel {
+			height: 100%;
+			overflow: scroll;
+			text-align: center;
+			}
+			body:not(.default) {
+			overflow: scroll !important;
+			}
+			.logo-container{
+			z-index: 2000;
+			width: 120px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 48px;
+			padding: 0!important;
+			font-size: 14px;
+			color: white;
+			font-family: 'Source Sans Pro', Arial;
+			text-align: -webkit-center;
+			}
+			.report-headline{
+			position: absolute;
+			left: 23%;
+			font-size: 14px;
+			font-family: 'Source Sans Pro', Arial;
+			height: 48px;
+			width: 800px;
+			}
+		</styles>
+	</configuration>
+</extentreports>

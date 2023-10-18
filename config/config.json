@@ -1,0 +1,9 @@
+{
+  "browserConfig": {
+    "browser": "Chrome",
+    "headLess": "false"
+  },
+  "webAppConfig": {
+    "appUrl": "https://dev.elevate-mentoring.shikshalokam.org/"
+  }
+}
