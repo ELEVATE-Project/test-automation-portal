@@ -1,6 +1,6 @@
 # Web Automation Testing with Java and Selenium
 
-- Main Objective is to test android app using java, Slenium ,TestNg
+- Main Objective is to test Web app using java, Slenium ,TestNg
 
 
 
